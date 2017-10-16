@@ -8,5 +8,5 @@ $ yarn global add vue-cli
 $ vue init cloudPWR/webpack-airlift my-project
 $ cd my-project
 $ yarn install
-$ yarn run build
+$ yarn run watch
 ```

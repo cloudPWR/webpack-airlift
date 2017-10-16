@@ -5,7 +5,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ``` bash
 $ yarn global add vue-cli
-$ vue init cloudPWR/webpack-airlift my-project
+$ vue init --clone cloudPWR/webpack-airlift my-project
 $ cd my-project
 $ yarn install
 $ yarn run build

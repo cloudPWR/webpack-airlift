@@ -1,0 +1,8 @@
+{
+  "forms": {},
+  "airlift": {
+    "csrftoken": "{{csrftoken}}",
+    "account_id": "{{account_id}}",
+    "user_id": "{{user_id}}"
+  }
+}

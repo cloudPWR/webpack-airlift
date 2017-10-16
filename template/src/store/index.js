@@ -19,7 +19,7 @@ const getters = {
 
 }
 
-export default new Store({
+export default new Vuex.Store({
   state,
   mutations,
   actions,

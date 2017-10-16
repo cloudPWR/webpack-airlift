@@ -1,0 +1,38 @@
+{
+  "airlift": {
+    "env": {
+      "production": {
+        "host": "airliftapp.com",
+        "account_uuid": "",
+        "page_mappings": {
+        }
+      },
+      "sandbox": {
+        "host": "sandbox.airliftapp.com",
+        "account_uuid": "",
+        "page_mappings": {
+        }
+      },
+      "dev": {
+        "host": "airlift.betapwr.com",
+        "account_uuid": "",
+        "page_mappings": {
+        }
+      }
+    },
+    "pages": [
+      {
+
+      }
+    ],
+    "deploy": {
+      "environment": "sandbox"
+    }
+  },
+  "s3": {
+    "region": "us-west-2",
+    "bucket": "cloudpwr.static/{{name}}"
+  }
+}
+
+

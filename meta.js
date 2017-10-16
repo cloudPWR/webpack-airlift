@@ -25,5 +25,5 @@ module.exports = {
       'message': 'Author'
     }
   },
-  'completeMessage': 'To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}yarn install\n  yarn run build'
+  'completeMessage': 'To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}yarn install\n  > Configure airlift_config.json and airlift_config_auth.json\n  yarn run watch'
 }

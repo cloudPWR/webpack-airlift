@@ -8,6 +8,8 @@ const vueLoaderConfig = require('./vue-loader.conf')
 const webpack = require('webpack');
 require('babel-polyfill')
 
+const airliftconfig = require('../airlift_config');
+
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
@@ -19,7 +21,7 @@ module.exports = {
   output: {
     path: config.build.assetsRoot,
     filename: '[name].js',
-    publicPath: config.build.assetsPublicPath
+    publicPath: `https://s3-${airliftconfig.s3.region}.amazonaws.com/${airliftconfig.s3.bucket}`
   },
   resolve: {
     extensions: ['.js', '.vue', '.json'],

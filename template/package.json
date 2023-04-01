@@ -11,7 +11,7 @@
     "dependencies": {
         "airlift-deploy-plugin": "git+ssh://git@github.com:cloudPWR/Airlift-Deploy-Plugin.git",
         "babel-polyfill": "^6.26.0",
-        "jquery": "^3.2.1",
+        "jquery": "^3.5.0",
         "vue": "^2.5.2",
         "vue-router": "^3.0.1",
         "vuex": "^3.0.0"
